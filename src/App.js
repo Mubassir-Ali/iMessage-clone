@@ -1,11 +1,13 @@
 import React from 'react';
 
 import './App.css';
+import Imessage from './app/components/Imessage';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+
+      <Imessage/>
     </div>
   );
 }
